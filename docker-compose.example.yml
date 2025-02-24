@@ -18,7 +18,7 @@ services:
       - "4000:4000"
     environment:
       - DATABASE_URL=postgresql://postgres:password@db:5432/userdb
-      - JWT_SECRET=votre_secret_jwt
+      - JWT_SECRET=test_K9p2mR4vX7nB9cL5hJ3qW8sY1aD4fG6
     depends_on:
       - db
 
